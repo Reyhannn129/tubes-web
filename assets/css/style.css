@@ -237,6 +237,52 @@ ul {
 .logo i {
   color: var(--primary);
 }
+.logo img {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+/* Styling for top-bar navbar logo (transparent background, raw layout) */
+.top-bar-container .logo {
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
+  transition: all 0.3s ease;
+}
+.top-bar-container .logo:hover {
+  transform: scale(1.05);
+}
+.top-bar-container .logo img {
+  height: 80px; /* Enlarge square logo to be highly visible */
+  width: auto;
+  object-fit: contain;
+  display: block;
+  filter: drop-shadow(0px 2px 8px rgba(255, 255, 255, 0.45)); /* White soft glow to pop on teal background */
+}
+.footer-logo {
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+  display: inline-flex !important;
+  align-items: center;
+  box-shadow: none;
+  transition: all 0.3s ease;
+}
+.footer-logo:hover {
+  transform: scale(1.05);
+}
+.footer-logo img {
+  height: 65px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
 .nav-menu {
   display: flex;
   gap: 35px;

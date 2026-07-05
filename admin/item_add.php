@@ -37,7 +37,9 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 </head>
 <body>
 <div class="sidebar">
-    <div class="sidebar-logo text-gradient">VentureGear</div>
+    <div class="sidebar-logo text-gradient">
+        <img src="../assets/images/logo_transparant.png" alt="VentureGear Logo">
+    </div>
     <div class="sidebar-menu">
         <a href="dashboard.php">Dashboard</a>
         <a href="items.php" class="active">Kelola Barang</a>

@@ -19,8 +19,8 @@ if(isset($_SESSION['admin_id'])) {
 
 <div class="glass-card" style="padding: 40px; width: 100%; max-width: 400px; position: relative; z-index: 10;">
     <div class="text-center mb-4">
-        <a href="../index.php" class="logo" style="justify-content:center; font-size:2rem; margin-bottom:10px;">
-            <i class="fa-solid fa-mountain-sun"></i> VentureGear
+        <a href="../index.php" class="logo" style="justify-content:center; margin:0 auto 20px auto; display:inline-flex; align-items:center;">
+            <img src="../assets/images/logo_transparant.png" alt="VentureGear Logo" style="height: 80px; max-width: 100%; object-fit: contain;">
         </a>
         <h2 class="text-gradient">Admin Panel</h2>
     </div>

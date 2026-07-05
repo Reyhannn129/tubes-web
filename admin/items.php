@@ -20,7 +20,9 @@ $items = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <body>
 
 <div class="sidebar">
-    <div class="sidebar-logo text-gradient"><i class="fa-solid fa-mountain-sun"></i> VentureGear</div>
+    <div class="sidebar-logo text-gradient">
+        <img src="../assets/images/logo_transparant.png" alt="VentureGear Logo">
+    </div>
     <div class="sidebar-menu">
         <a href="dashboard.php"><i class="fa-solid fa-gauge"></i> Dashboard</a>
         <a href="items.php" class="active"><i class="fa-solid fa-boxes-stacked"></i> Kelola Barang</a>

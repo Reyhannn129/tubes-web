@@ -2,7 +2,7 @@
     <div class="footer-container">
         <div class="footer-col">
             <a href="#" class="logo footer-logo">
-                <i class="fa-solid fa-mountain-sun"></i> VentureGear
+                <img src="<?php echo $base_url; ?>assets/images/logo_transparant.png" alt="VentureGear Logo">
             </a>
             <p class="text-muted mt-2">Sistem manajemen penyewaan alat outdoor modern dan terpercaya. Temukan perlengkapan petualanganmu di sini.</p>
         </div>

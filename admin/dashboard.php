@@ -34,7 +34,7 @@ $recent_rentals = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <!-- Sidebar -->
 <div class="sidebar">
     <div class="sidebar-logo text-gradient">
-        <i class="fa-solid fa-mountain-sun"></i> VentureGear
+        <img src="../assets/images/logo_transparant.png" alt="VentureGear Logo">
     </div>
     <div class="sidebar-menu">
         <a href="dashboard.php" class="active"><i class="fa-solid fa-gauge"></i> Dashboard</a>

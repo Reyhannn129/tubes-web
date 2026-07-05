@@ -24,7 +24,7 @@ $base_url = "http://" . $_SERVER["HTTP_HOST"] . "/";
 <div class="top-bar">
     <div class="top-bar-container">
       <a href="<?php echo $base_url; ?>index.php" class="logo">
-          <i class="fa-solid fa-mountain-sun"></i> VentureGear
+          <img src="<?php echo $base_url; ?>assets/images/logo_navbar.png" alt="VentureGear Logo">
       </a>
         <ul class="nav-menu">
           <li><a href="<?php echo $base_url; ?>index.php">Beranda</a></li>
